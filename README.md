@@ -40,19 +40,19 @@ mvn spring-boot:run
 
 ![docs_readme/postman1.png](docs/insomnia.png)
 
-## ⚙️ Teste com Insonnia - Get Maior Compra.
+## ⚙️ Teste com Insomnia - Get Maior Compra.
 
 ![docs/get_maior_compra.png](docs/get_maior_compra.png)
 
-## ⚙️ Teste com Insonnia - Get Compras.
+## ⚙️ Teste com Insomnia - Get Compras.
 
 ![docs/get_compras.png](docs/get_compras.png)
 
-## ⚙️ Teste com Insonnia - Get Clientes Fieis.
+## ⚙️ Teste com Insomnia - Get Clientes Fieis.
 
 ![docs/get_clientes_fieis.png](docs/get_clientes_fieis.png)
 
-## ⚙️ Teste com Insonnia - Get Recomendação.
+## ⚙️ Teste com Insomnia - Get Recomendação.
 
 ![docs/get_recomendacao.png](docs/get_recomendacao.png)
 
