@@ -67,11 +67,13 @@ public class ClienteConverter {
     private static RecomendacaoResponse getRecomendacaoResponse(Cliente clienteResult, Produto produto, Compra compra) {
         logger.info("Inicio, execução ClienteConverter getRecomendacaoResponse");
         ProdutoResponse produtoResponse = new ProdutoResponse();
-        produtoResponse.setTipoVinho(produto.getTipoVinho());
-        produtoResponse.setSafra(produto.getSafra());
-        produtoResponse.setPreco(produto.getPreco());
-        produtoResponse.setCodigo(produto.getCodigo());
-        produtoResponse.setAnoCompra(produto.getAnoCompra());
+        if(produto != null){
+            produtoResponse.setTipoVinho(produto.getTipoVinho());
+            produtoResponse.setSafra(produto.getSafra());
+            produtoResponse.setPreco(produto.getPreco());
+            produtoResponse.setCodigo(produto.getCodigo());
+            produtoResponse.setAnoCompra(produto.getAnoCompra());
+        }
 
         RecomendacaoResponse clienteRecomendacao = new RecomendacaoResponse();
         clienteRecomendacao.setNome(clienteResult.getNome());
