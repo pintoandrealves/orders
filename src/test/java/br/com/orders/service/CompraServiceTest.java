@@ -46,7 +46,7 @@ class CompraServiceTest {
 
     @Test
     void testGetComprasNullValue() {
-        List<Cliente> clientes = BuildMocks.buildClientes();
+        List<Cliente> clientes = List.of();
         List<Produto> produtos = List.of();
 
         when(this.mockyApiClient.getClientes()).thenReturn(clientes);
@@ -55,7 +55,7 @@ class CompraServiceTest {
 
         verify(this.mockyApiClient, times(1)).getProdutos();
         verify(this.mockyApiClient, times(1)).getClientes();
-        assertNotNull(expected);
+        assertTrue(expected.isEmpty());
 
     }
 

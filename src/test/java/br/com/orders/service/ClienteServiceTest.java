@@ -81,18 +81,16 @@ class ClienteServiceTest {
 
     @Test
     void testGetRecomendacoesNullValues() {
-        List<Cliente> clientes = BuildMocks.buildClientes();
+        List<Cliente> clientes = List.of();
         List<Produto> produtos = BuildMocks.buildProdutos();
-        RecomendacaoResponse response = null;
 
         when(this.mockyApiClient.getClientes()).thenReturn(clientes);
         when(this.mockyApiClient.getProdutos()).thenReturn(produtos);
         RecomendacaoResponse expected = this.clienteService.getRecomendacoes(BuildMocks.cpf);
 
-        verify(this.mockyApiClient, times(1)).getProdutos();
         verify(this.mockyApiClient, times(1)).getClientes();
 
-        assertNotNull(expected);
+        assertNull(expected.getNome());
 
     }
 
