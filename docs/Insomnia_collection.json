@@ -1,0 +1,156 @@
+{
+  "_type": "export",
+  "__export_format": 4,
+  "__export_date": "2024-03-31T02:27:08.453Z",
+  "__export_source": "insomnia.desktop.app:v8.6.1",
+  "resources": [
+    {
+      "_id": "req_56fb21689bb143a9be5215b89b33dfc0",
+      "parentId": "wrk_657717149c9b4ed9a9da0768b98a0d02",
+      "modified": 1711830960934,
+      "created": 1711333887876,
+      "url": "http://localhost:8080/recomendacao/05870189179/tipo",
+      "name": "GetRecomendacoes",
+      "description": "",
+      "method": "GET",
+      "body": {},
+      "parameters": [],
+      "headers": [
+        {
+          "name": "User-Agent",
+          "value": "insomnia/8.6.1"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1711333887876,
+      "isPrivate": false,
+      "pathParameters": [],
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "wrk_657717149c9b4ed9a9da0768b98a0d02",
+      "parentId": null,
+      "modified": 1711140488904,
+      "created": 1711140488904,
+      "name": "Compras",
+      "description": "",
+      "scope": "collection",
+      "_type": "workspace"
+    },
+    {
+      "_id": "req_06ce0079325d4035bc3c1b03b10ad3d6",
+      "parentId": "wrk_657717149c9b4ed9a9da0768b98a0d02",
+      "modified": 1711830959213,
+      "created": 1711329697852,
+      "url": "http://localhost:8080/clientes-fieis",
+      "name": "GetClientesFieis",
+      "description": "",
+      "method": "GET",
+      "body": {},
+      "parameters": [],
+      "headers": [
+        {
+          "name": "User-Agent",
+          "value": "insomnia/8.6.1"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1711329697852,
+      "isPrivate": false,
+      "pathParameters": [],
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "req_7627412e663f4318b5194fd912448bab",
+      "parentId": "wrk_657717149c9b4ed9a9da0768b98a0d02",
+      "modified": 1711830958300,
+      "created": 1711172981915,
+      "url": "http://localhost:8080/compras",
+      "name": "GetCompras",
+      "description": "",
+      "method": "GET",
+      "body": {},
+      "parameters": [],
+      "headers": [
+        {
+          "name": "User-Agent",
+          "value": "insomnia/8.6.1"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1711172981915,
+      "isPrivate": false,
+      "pathParameters": [],
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "req_0ba3a9ecc02d4ae5b2865d07e485eccd",
+      "parentId": "wrk_657717149c9b4ed9a9da0768b98a0d02",
+      "modified": 1711836450078,
+      "created": 1711140494951,
+      "url": "http://localhost:8080/maior-compra/2018",
+      "name": "GetMaiorCompra",
+      "description": "",
+      "method": "GET",
+      "body": {},
+      "parameters": [],
+      "headers": [
+        {
+          "name": "User-Agent",
+          "value": "insomnia/8.6.1"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1711140494951,
+      "isPrivate": false,
+      "pathParameters": [],
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "env_f0b622192a20e0399d71381816844bd5d459faa6",
+      "parentId": "wrk_657717149c9b4ed9a9da0768b98a0d02",
+      "modified": 1711140488906,
+      "created": 1711140488906,
+      "name": "Base Environment",
+      "data": {},
+      "dataPropertyOrder": null,
+      "color": null,
+      "isPrivate": false,
+      "metaSortKey": 1711140488906,
+      "_type": "environment"
+    },
+    {
+      "_id": "jar_f0b622192a20e0399d71381816844bd5d459faa6",
+      "parentId": "wrk_657717149c9b4ed9a9da0768b98a0d02",
+      "modified": 1711140488909,
+      "created": 1711140488909,
+      "name": "Default Jar",
+      "cookies": [],
+      "_type": "cookie_jar"
+    }
+  ]
+}
